@@ -1,0 +1,163 @@
+body{
+	position: relative;
+	background: url(../img/svg/be.svg);
+	overflow: hidden;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.container:before,
+.container:after{
+	content: "";
+	display: table;
+}
+
+.container:after{
+	clear: both;
+}
+
+.container{
+	width: 2000px;
+}
+
+.nav-container{
+	position: absolute;
+	margin-top: -8px;
+	margin-left: -8px;
+	width: 450px;
+	height: 1000px;
+	background: green;
+	border-radius: 1px;
+}
+
+.nav-content{
+	float: left;
+	width: 450px;
+	text-align: justify;
+	background: green;
+	border-radius: 1px;
+}
+
+.social-container{
+	position: absolute;
+	margin-top: 560px;
+	margin-left: 100px;
+	width: 200px;
+	height: 100px;
+	background: green;
+	border: none;
+
+}
+
+.social-content{
+	float: left;
+	width: 50px;
+	text-align: center;
+	background: green;
+	border-radius: 100px;
+
+}
+
+.slider-container{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 700px;
+	width: 940px;
+	height: 220px;
+}
+
+.slider-content{
+	float: left;
+	width: 940px;
+	color: white;
+}
+
+.section-container{
+	position: absolute;
+	margin-top: 520px;
+	margin-left: 442px;
+	width: 1470px;
+	height: 525px;
+	background: url(../img/svg/disney.svg);
+}
+
+.section-content{
+	float: left;
+	width: 940px;
+	color: white;
+	background: green;
+}
+
+.info-container{
+	position: absolute;
+	margin-top: 480px;
+	margin-left: 500px;
+	width: 400px;
+	height: 400px;
+}
+
+.info-content{
+	float: left;
+	width: 400px;
+	color: black;
+}
+
+.res-container{
+	position: absolute;
+	margin-top: 480px;
+	margin-left: 1040px;
+	width: 400px;
+	height: 400px;
+}
+
+.res-content{
+	float: left;
+	width: 400px;
+	color: white;
+}
+
+ul,li,a{
+	text-decoration: none;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+	color:white;
+	text-align: left;
+	border-bottom: 1px solid #333;
+}
+
+li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*
+ul li:hover{
+	background-color: #ccc;	
+}
+*/
+
+ul li:hover{
+	color: blue;
+	transition: color 0.9s;
+}
+
+img, video, canvas {
+  max-width: 100%;
+}
+
+i{
+	padding-left: 8px;
+	padding-right: 10px;
+}
+
+h2{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+p{
+	font-weight: 400;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
