@@ -1,7 +1,7 @@
 body{
 	position: relative;
 	background: url(../img/svg/be.svg);
-	overflow: hidden;
+	overflow-x: hidden;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 .nav-container{
-	position: absolute;
+	position: fixed;
 	margin-top: -8px;
 	margin-left: -8px;
 	width: 450px;
@@ -38,7 +38,7 @@ body{
 }
 
 .social-container{
-	position: absolute;
+	position: fixed;
 	margin-top: 560px;
 	margin-left: 100px;
 	width: 200px;
@@ -71,22 +71,62 @@ body{
 	color: white;
 }
 
-.section-container{
+.section1-container{
 	position: absolute;
 	margin-top: 520px;
 	margin-left: 442px;
 	width: 1470px;
 	height: 525px;
 	background: url(../img/svg/disney.svg);
+	background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-.section-content{
+.section1-content{
 	float: left;
 	width: 940px;
 	color: white;
 	background: green;
 }
 
+.section2-container{
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 442px;
+	width: 1470px;
+	height: 525px;
+	background: url(../img/svg/sony.svg);
+	background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.section2-content{
+	float: left;
+	width: 940px;
+	color: white;
+	background: green;
+}
+
+.section3-container{
+	position: absolute;
+	margin-top: 1500px;
+	margin-left: 442px;
+	width: 1470px;
+	height: 525px;
+	background: url(../img/svg/iphone.svg);
+	background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.section3-content{
+	float: left;
+	width: 940px;
+	color: white;
+	background: green;
+}
 .info-container{
 	position: absolute;
 	margin-top: 480px;

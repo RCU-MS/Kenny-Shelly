@@ -4,7 +4,8 @@ This is the Kenny and Shelly Project for STEM improvement.
 Milestone Dates
 ----------------
 
-Friday, September 4th - Navigation Bar complete, & layout complete
+Friday, September 4th - Navigation Bar complete, & layout complete (COMPLETED)
+  -Resource for Parallax: http://webdesign.tutsplus.com/tutorials/create-a-masked-background-effect-with-css--cms-21112
 
 Friday, September 11th -  Data Entered onto website, & responsive layout complete
 
