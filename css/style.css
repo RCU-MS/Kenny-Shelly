@@ -23,35 +23,33 @@ body{
 
 .nav-container{
 	position: fixed;
-	margin-top: -8px;
-	margin-left: -8px;
-	width: 580px;
-	height: 1000px;
-	background: green;
-	border-radius: 1px;
+	margin-top: -0.40%;
+	margin-left: -0.40%;
+	width: 29.00%;
+	border:none;
 }
 
 .nav-content{
 	float: left;
-	width: 504px;
+	width: 86.89655172413793%;
 	text-align: justify;
 	background: orange;
-	margin-left: 28px;
+	margin-left: 1.40%;
 	box-shadow: 2px 2px 4px white;
 	text-align: center;
 }
 
 .social-container{
 	position: fixed;
-	margin-top: 770px;
-	margin-left: 20px;
-	width: 580px;
+	margin-top: 38.50%;
+	margin-left: 1%;
+	width: 29.00%;
 	border: none;
 }
 
 .social-content{
 	float: left;
-	width: 55px;
+	width: 9.482758620689655%;
 	text-align: center;
 	border: none;
 	margin-top: -9%;
