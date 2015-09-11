@@ -17,102 +17,74 @@ body{
 	clear: both;
 }
 
-.container{
-	width: 2000px;
-}
+
 
 .nav-container{
 	position: fixed;
-	margin-top: -8px;
-	margin-left: -8px;
-	width: 580px;
-	height: 1000px;
-	background: green;
-	border-radius: 1px;
+	margin-top: -0.40%;
+	margin-left: -0.40%;
+	width: 31.00%;
+	height:100%;
+	border:none;
+	background:black;
 }
 
 .nav-content{
 	float: left;
-	width: 504px;
+	width: 88.89655172413793%;
 	text-align: justify;
 	background: orange;
-	margin-left: 28px;
+	margin-left: 4.40%;
 	box-shadow: 2px 2px 4px white;
 	text-align: center;
 }
 
-.social-container{
-	position: fixed;
-	margin-top: 770px;
-	margin-left: 20px;
-	width: 580px;
-	border: none;
-}
-
 .social-content{
 	float: left;
-	width: 55px;
+	width: 16.482758620689655%;
 	text-align: center;
 	border: none;
 	margin-top: -9%;
-	margin-left: 13%;	
+	margin-left: 16%;	
 
 }
 
 .slider-container{
 	position: absolute;
-	margin-top: 40px;
-	margin-left: 700px;
-	width: 1024px;
-	height: 220px;
+	margin-top: 2%;
+	margin-left: 40.00%;
+	width: 51.20%;	
 }
 
 .slider-content{
 	float: left;
-	width: 1024px;
+	width: 100%;
 	color: white;
-}
-
-.section1-container{
-	position: absolute;
-	margin-top: 520px;
-	margin-left: 442px;
-	width: 1470px;
-	height: 525px;
-}
-
-.section1-content{
-	float: left;
-	width: 940px;
-	color: white;
-	background: green;
 }
 
 .info-container{
 	position: absolute;
-	margin-top: 540px;
-	margin-left: 750px;
-	width: 400px;
-	height: 400px;
+	margin-top: 27.00%;
+	margin-left: 42.50%;
+	width: 20.00%;
 }
 
 .info-content{
 	float: left;
-	width: 400px;
+	width: 100%;
 	color: black;
 }
 
 .res-container{
 	position: absolute;
-	margin-top: 630px;
-	margin-left: 1250px;
-	width: 400px;
-	height: 400px;
+	margin-top: 31.50%;
+	margin-left: 67.50%;
+	width: 20%;
 }
 
 .res-content{
 	float: left;
-	width: 400px;
+	width: 100%;
 	color: white;
 }
 
@@ -135,13 +107,6 @@ li{
 	padding-bottom: 10px;
 	margin-top: 20px;
 }
-
-/*
-ul li:hover{
-	background-color: #ccc;	
-}
-*/
-
 ul li:hover{
 	color: blue;
 	transition: color 0.9s;
@@ -164,5 +129,4 @@ h2{
 p{
 	padding-left:20px;
 }
-
 
